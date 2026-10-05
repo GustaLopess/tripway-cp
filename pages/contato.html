@@ -21,5 +21,65 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="intro">
+            <h2>Faça a sua Reserva ou Entre em Contato</h2>
+            <p>Preencha o formulário abaixo e a nossa equipa entrará em contacto para planejar a sua viagem perfeita!</p>
+            
+            <!--  -->
+            <img src="" alt="Atendimento e reservas de viagem" class="banner-img">
+        </section>
+
+        <!-- Seção do Formulário -->
+        <section class="form-container">
+            <form action="#" method="POST">
+                
+                <!-- Nome -->
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite o seu nome" required>
+                </div>
+
+                <!-- E-mail -->
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+
+                <!-- Destino de interesse (select) -->
+                <div class="form-group">
+                    <label for="destino">Destino de Interesse:</label>
+                    <select id="destino" name="destino" required>
+                        <option value="" disabled selected>Selecione um destino...</option>
+                        <option value="praia">Praia Paraisíaca</option>
+                        <option value="montanha">Serra & Montanha</option>
+                        <option value="cidade">Cidade Histórica</option>
+                        <option value="outro">Outro / Consultoria Personalizada</option>
+                    </select>
+                </div>
+
+                <!-- Data -->
+                <div class="form-group">
+                    <label for="data">Data Pretendida:</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+
+                <!-- Quantidade de pessoas -->
+                <div class="form-group">
+                    <label for="quantidade">Quantidade de Pessoas:</label>
+                    <input type="number" id="quantidade" name="quantidade" min="1" max="20" placeholder="1" required>
+                </div>
+
+                <!-- Mensagem -->
+                <div class="form-group">
+                    <label for="mensagem">Mensagem / Observações:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos mais sobre as suas preferências de viagem..."></textarea>
+                </div>
+
+                <!-- Botão de envio -->
+                <button type="submit" class="btn-enviar">Enviar Reserva</button>
+            </form>
+        </section>
+    </main>
 
    
