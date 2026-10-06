@@ -1,6 +1,6 @@
 # tripway-cp
 
-# Gustavo
+# Gustavo Souza Lopes
 **RM:** 575057
 
 # Kaique Ferreira de Castro
